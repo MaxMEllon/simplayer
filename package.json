@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "The module is simple sound player. ",
   "main": "simplayer.js",
-  "bin": "samplayer.js",
+  "bin": "simplayer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
