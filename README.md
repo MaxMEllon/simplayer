@@ -51,6 +51,14 @@ musicProcess.on('close', function(code) {
 
 ```
 
+Use in the following manner in command line.
+
+```sh
+
+simplayer /path/to/sample.mp3
+
+```
+
 ## Author
 
 - Maxmellon
