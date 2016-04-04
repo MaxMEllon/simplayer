@@ -1,6 +1,6 @@
 {
   "name": "simplayer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The module is simple sound player. ",
   "main": "simplayer.js",
   "bin": "simplayer.js",
