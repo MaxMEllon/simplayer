@@ -1,5 +1,14 @@
 # simplayer
 
+<p align="right">
+  <a href="https://www.npmjs.com/package/simplayer">
+    <img src="https://img.shields.io/npm/v/simplayer.svg"/>
+  </a>
+  <a href="https://github.com/MaxMEllon/simplayer/blob/master/LICENSE.txt">
+    <img src="https://img.shields.io/npm/l/simplayer.svg"/>
+  </a>
+</p>
+
 ## About
 
 This is saimple multi platform sound player.
@@ -17,6 +26,17 @@ npm install simplayer -g
 npm install simplayer --save
 ```
 
+If platform is linux, then need to install the `alsa`
+
+```sh
+# before we start the work, please update
+sudo apt-get update
+sudo apt-get upgrade
+
+# install ALSA
+sudo apt-get install alsa-base alsa-utils
+```
+
 ## Usage
 
 Simplayer function return child process instance.
@@ -26,6 +46,11 @@ Simplayer function return child process instance.
 var simplayer = require('simplayer');
 
 var musicProcess = simplayer('/path/to/sound.mp3');
+
+var musicProcess = simplayer('path/to/song.mp3', function (error) {
+  if (error) throw error;
+  console.log('end of song!');
+});
 
 ```
 
