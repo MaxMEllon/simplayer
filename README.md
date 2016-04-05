@@ -17,7 +17,7 @@ I get ideas from [opener](https://www.npmjs.com/package/opener).
 This module should be used when to play simple sound or sound effect.
 Not suitable for music players.
 
-## Instalation
+## Installation
 
 ```sh
 npm install simplayer -g
@@ -83,6 +83,10 @@ Use in the following manner in command line.
 simplayer /path/to/sample.mp3
 
 ```
+
+## For Japanese
+
+- [http://maxmellon.hateblo.jp/entry/2016/04/05/153954](http://maxmellon.hateblo.jp/entry/2016/04/05/153954)
 
 ## Author
 
