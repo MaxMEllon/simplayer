@@ -1,13 +1,17 @@
 # simplayer
 
-<p align="right">
+<p>
   <a href="https://www.npmjs.com/package/simplayer">
-    <img src="https://img.shields.io/npm/v/simplayer.svg"/>
+    <img src="https://nodei.co/npm/simplayer.png"/>
+  </a>
+  <a href="https://www.npmjs.com/package/simplayer">
+    <img src="https://img.shields.io/npm/v/simplayer.svg" style="float:right;"/>
   </a>
   <a href="https://github.com/MaxMEllon/simplayer/blob/master/LICENSE.txt">
-    <img src="https://img.shields.io/npm/l/simplayer.svg"/>
+    <img src="https://img.shields.io/npm/l/simplayer.svg" style="float:right"/>
   </a>
 </p>
+
 
 ## About
 
@@ -59,6 +63,8 @@ If platform is windows, then support wav file only.
 ```js
 
 var musicProcess = simplayer('C:\\path\\to\\sound.wav');
+// or
+var musicProcess = simplayer('C:/path/to/sound.wav');
 
 ```
 
