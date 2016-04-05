@@ -21,7 +21,7 @@
 
 ## About
 
-This is saimple multi platform sound player.
+This is simple multi platform sound player.
 I get ideas from [opener](https://www.npmjs.com/package/opener).
 
 This module should be used when to play simple sound or sound effect.
