@@ -1,4 +1,10 @@
-# simplayer
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MaxMEllon/demos/master/simplayer/simplayer.png">
+</p>
+
+
+- - -
 
 <p>
   <a href="https://www.npmjs.com/package/simplayer">
