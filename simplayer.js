@@ -12,7 +12,7 @@ var childProcess = require('child_process');
  * @return {Object} childProcess
  */
 function play(filepath, callback) {
-  var mediaSoundPlayer = '(New-Object System.Media.SoundPlayer "' + filepath + '").Play()';
+  var mediaSoundPlayer = '"(New-Object System.Media.SoundPlayer "' + filepath + '").Play(); exit $LASTEXITCODE"';
   var player = process.platform === 'darwin' ? 'afplay' : 'aplay';
 
   if (typeof filepath === 'string') {
