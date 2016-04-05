@@ -98,7 +98,7 @@ simplayer /path/to/sample.mp3
 
 ## For Japanese
 
-- [http://maxmellon.hateblo.jp/entry/2016/04/05/153954](http://maxmellon.hateblo.jp/entry/2016/04/05/153954)
+- [http://qiita.com/maxmellon/items/afe7497ef3b4976ee87d](http://qiita.com/maxmellon/items/afe7497ef3b4976ee87d)
 
 ## Author
 
