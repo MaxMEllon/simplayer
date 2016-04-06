@@ -12,7 +12,7 @@ var childProcess = require('child_process');
  * @return {Object} childProcess
  */
 function play(filepath, callback) {
-  var mediaSoundPlayer = '"(New-Object System.Media.SoundPlayer "' + filepath + '").Play(); exit $LASTEXITCODE"';
+  var mediaSoundPlayer = '"(New-Object System.Media.SoundPlayer "' + filepath + '").PlaySync()';
   var player = process.platform === 'darwin' ? 'afplay' : 'aplay';
 
   if (typeof filepath === 'string') {
@@ -26,7 +26,7 @@ function play(filepath, callback) {
   }
 
   return process.platform === 'win32'
-    ? childProcess.exec('powershell.exe -NoExit ' + mediaSoundPlayer, callback)
+    ? childProcess.exec('powershell.exe ' + mediaSoundPlayer, callback)
     : childProcess.execFile(player, filepath, callback);
 }
 
